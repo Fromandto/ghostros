@@ -1,0 +1,8 @@
+prefix=/root/ehang_ws/devel
+
+Name: mavlink_common
+Description: Description of mavlink_common
+Version: 0.1.10
+Cflags: -I/root/ehang_ws/devel/include -I/root/ehang_ws/src/ghost/mavlink_common/include
+Libs: -L/root/ehang_ws/devel/lib 
+Requires: roscpp message_runtime

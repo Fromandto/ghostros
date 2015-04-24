@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mavlink_udp")
+set(mavlink_udp_MAINTAINER "PR-foobar <foobar@foo.bar.willowgarage.com>")
+set(mavlink_udp_DEPRECATED "")
+set(mavlink_udp_VERSION "0.1.0")
+set(mavlink_udp_BUILD_DEPENDS "message_generation" "roscpp" "rospy" "mavlink_common")
+set(mavlink_udp_RUN_DEPENDS "message_runtime" "roscpp" "rospy" "mavlink_common")
+set(mavlink_udp_BUILDTOOL_DEPENDS "catkin")

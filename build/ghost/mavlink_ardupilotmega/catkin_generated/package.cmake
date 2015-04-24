@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mavlink_ardupilotmega")
+set(mavlink_ardupilotmega_MAINTAINER "Pedro Marque da Silva <posilva@gmail.com>")
+set(mavlink_ardupilotmega_DEPRECATED "")
+set(mavlink_ardupilotmega_VERSION "0.1.10")
+set(mavlink_ardupilotmega_BUILD_DEPENDS "message_generation" "roscpp" "rospy" "mavlink_common")
+set(mavlink_ardupilotmega_RUN_DEPENDS "message_runtime" "roscpp" "rospy" "mavlink_common")
+set(mavlink_ardupilotmega_BUILDTOOL_DEPENDS "catkin")

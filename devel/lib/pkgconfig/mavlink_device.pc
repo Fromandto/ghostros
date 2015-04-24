@@ -1,0 +1,8 @@
+prefix=/root/ehang_ws/devel
+
+Name: mavlink_device
+Description: Description of mavlink_device
+Version: 0.0.0
+Cflags: 
+Libs: -L/root/ehang_ws/devel/lib 
+Requires: 

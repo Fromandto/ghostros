@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mavlink_common")
+set(mavlink_common_MAINTAINER "Pedro Marque da Silva <posilva@gmail.com>")
+set(mavlink_common_DEPRECATED "")
+set(mavlink_common_VERSION "0.1.10")
+set(mavlink_common_BUILD_DEPENDS "message_generation" "roscpp" "rospy")
+set(mavlink_common_RUN_DEPENDS "message_runtime" "roscpp" "rospy")
+set(mavlink_common_BUILDTOOL_DEPENDS "catkin")

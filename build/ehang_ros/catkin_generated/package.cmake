@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "ehang_ros")
+set(ehang_ros_MAINTAINER "root <root@todo.todo>")
+set(ehang_ros_DEPRECATED "")
+set(ehang_ros_VERSION "0.0.0")
+set(ehang_ros_BUILD_DEPENDS "mavlink_ardupilotmega" "roscpp" "rospy")
+set(ehang_ros_RUN_DEPENDS "mavlink_ardupilotmega" "roscpp" "rospy")
+set(ehang_ros_BUILDTOOL_DEPENDS "catkin")

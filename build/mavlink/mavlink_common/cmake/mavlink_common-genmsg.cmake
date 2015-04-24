@@ -1,0 +1,1951 @@
+# generated from genmsg/cmake/pkg-genmsg.cmake.em
+
+message(STATUS "mavlink_common: 102 messages, 0 services")
+
+set(MSG_I_FLAGS "-Imavlink_common:/root/ehang_ws/src/mavlink/mavlink_common/msg;-Istd_msgs:/opt/ros/hydro/share/std_msgs/cmake/../msg")
+
+# Find all generators
+find_package(gencpp REQUIRED)
+find_package(genlisp REQUIRED)
+find_package(genpy REQUIRED)
+
+add_custom_target(mavlink_common_generate_messages ALL)
+
+#
+#  langs = gencpp;genlisp;genpy
+#
+
+### Section generating for lang: gencpp
+### Generating Messages
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MISSION_RESULT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VISION_POSITION_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GLOBAL_VISION_POSITION_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/COMMAND_LONG.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_REQUEST_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_SEVERITY.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/CHANGE_OPERATOR_CONTROL_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_PARAM_TYPE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_REQUEST_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_CLEAR_ALL.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/BATTERY_STATUS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_COUNT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_GOTO.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_ROLL_PITCH_YAW_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VFR_HUD.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MODE_FLAG_DECODE_POSITION.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SETPOINT_6DOF.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_GLOBAL_POSITION_SETPOINT_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/FILE_TRANSFER_DIR_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RC_CHANNELS_OVERRIDE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ROLL_PITCH_YAW_THRUST_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/STATE_CORRECTION.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MEMORY_VECT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/NAV_CONTROLLER_OUTPUT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MANUAL_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAVLINK_DATA_STREAM_TYPE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_MODE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PING.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_REQUEST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_QUAD_SWARM_ROLL_PITCH_YAW_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ATTITUDE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/NAMED_VALUE_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_ROI.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SCALED_IMU.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_CURRENT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_TYPE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/DATA_STREAM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RAW_PRESSURE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GPS_GLOBAL_ORIGIN.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/STATUSTEXT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/OPTICAL_FLOW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_SET.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_VALUE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ROLL_PITCH_YAW_RATES_THRUST_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/CHANGE_OPERATOR_CONTROL.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MODE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MODE_FLAG.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_RESULT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_QUAD_MOTORS_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ATTITUDE_QUATERNION.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_STATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/LOCAL_POSITION_NED.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SETPOINT_8DOF.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/LOCAL_POSITION_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_CMD_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIL_RC_INPUTS_RAW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_COMPONENT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SCALED_PRESSURE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RC_CHANNELS_RAW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/COMMAND_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SYSTEM_TIME.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VISION_SPEED_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/FILE_TRANSFER_START.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/DEBUG_VECT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GLOBAL_POSITION_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIL_CONTROLS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SYS_STATUS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIGHRES_IMU.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_SET_CURRENT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_ITEM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HEARTBEAT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/NAMED_VALUE_FLOAT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_REQUEST_READ.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SAFETY_ALLOWED_AREA.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_QUAD_SWARM_LED_ROLL_PITCH_YAW_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_DATA_STREAM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RAW_IMU.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_ITEM_REACHED.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/AUTH_KEY.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIL_STATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/LOCAL_POSITION_NED_SYSTEM_GLOBAL_OFFSET.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_REQUEST_PARTIAL_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SAFETY_SET_ALLOWED_AREA.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_WRITE_PARTIAL_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_LOCAL_POSITION_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GLOBAL_POSITION_SETPOINT_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_ROLL_PITCH_YAW_SPEED_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GPS_STATUS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_CMD.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ROLL_PITCH_YAW_SPEED_THRUST_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/REQUEST_DATA_STREAM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GPS_RAW_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SERVO_OUTPUT_RAW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_GPS_GLOBAL_ORIGIN.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/FILE_TRANSFER_RES.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RC_CHANNELS_SCALED.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MANUAL_CONTROL.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VICON_POSITION_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_FRAME.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/DEBUG.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_cpp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_AUTOPILOT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+)
+
+### Generating Services
+
+### Generating Module File
+_generate_module_cpp(mavlink_common
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+  "${ALL_GEN_OUTPUT_FILES_cpp}"
+)
+
+add_custom_target(mavlink_common_generate_messages_cpp
+  DEPENDS ${ALL_GEN_OUTPUT_FILES_cpp}
+)
+add_dependencies(mavlink_common_generate_messages mavlink_common_generate_messages_cpp)
+
+# target for backward compatibility
+add_custom_target(mavlink_common_gencpp)
+add_dependencies(mavlink_common_gencpp mavlink_common_generate_messages_cpp)
+
+# register target for catkin_package(EXPORTED_TARGETS)
+list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS mavlink_common_generate_messages_cpp)
+
+### Section generating for lang: genlisp
+### Generating Messages
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MISSION_RESULT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VISION_POSITION_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GLOBAL_VISION_POSITION_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/COMMAND_LONG.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_REQUEST_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_SEVERITY.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/CHANGE_OPERATOR_CONTROL_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_PARAM_TYPE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_REQUEST_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_CLEAR_ALL.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/BATTERY_STATUS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_COUNT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_GOTO.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_ROLL_PITCH_YAW_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VFR_HUD.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MODE_FLAG_DECODE_POSITION.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SETPOINT_6DOF.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_GLOBAL_POSITION_SETPOINT_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/FILE_TRANSFER_DIR_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RC_CHANNELS_OVERRIDE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ROLL_PITCH_YAW_THRUST_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/STATE_CORRECTION.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MEMORY_VECT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/NAV_CONTROLLER_OUTPUT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MANUAL_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAVLINK_DATA_STREAM_TYPE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_MODE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PING.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_REQUEST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_QUAD_SWARM_ROLL_PITCH_YAW_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ATTITUDE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/NAMED_VALUE_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_ROI.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SCALED_IMU.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_CURRENT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_TYPE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/DATA_STREAM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RAW_PRESSURE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GPS_GLOBAL_ORIGIN.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/STATUSTEXT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/OPTICAL_FLOW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_SET.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_VALUE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ROLL_PITCH_YAW_RATES_THRUST_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/CHANGE_OPERATOR_CONTROL.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MODE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MODE_FLAG.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_RESULT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_QUAD_MOTORS_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ATTITUDE_QUATERNION.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_STATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/LOCAL_POSITION_NED.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SETPOINT_8DOF.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/LOCAL_POSITION_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_CMD_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIL_RC_INPUTS_RAW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_COMPONENT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SCALED_PRESSURE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RC_CHANNELS_RAW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/COMMAND_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SYSTEM_TIME.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VISION_SPEED_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/FILE_TRANSFER_START.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/DEBUG_VECT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GLOBAL_POSITION_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIL_CONTROLS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SYS_STATUS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIGHRES_IMU.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_SET_CURRENT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_ITEM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HEARTBEAT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/NAMED_VALUE_FLOAT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_REQUEST_READ.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SAFETY_ALLOWED_AREA.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_QUAD_SWARM_LED_ROLL_PITCH_YAW_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_DATA_STREAM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RAW_IMU.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_ITEM_REACHED.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/AUTH_KEY.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIL_STATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/LOCAL_POSITION_NED_SYSTEM_GLOBAL_OFFSET.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_REQUEST_PARTIAL_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SAFETY_SET_ALLOWED_AREA.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_WRITE_PARTIAL_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_LOCAL_POSITION_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GLOBAL_POSITION_SETPOINT_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_ROLL_PITCH_YAW_SPEED_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GPS_STATUS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_CMD.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ROLL_PITCH_YAW_SPEED_THRUST_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/REQUEST_DATA_STREAM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GPS_RAW_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SERVO_OUTPUT_RAW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_GPS_GLOBAL_ORIGIN.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/FILE_TRANSFER_RES.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RC_CHANNELS_SCALED.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MANUAL_CONTROL.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VICON_POSITION_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_FRAME.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/DEBUG.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_lisp(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_AUTOPILOT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+)
+
+### Generating Services
+
+### Generating Module File
+_generate_module_lisp(mavlink_common
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+  "${ALL_GEN_OUTPUT_FILES_lisp}"
+)
+
+add_custom_target(mavlink_common_generate_messages_lisp
+  DEPENDS ${ALL_GEN_OUTPUT_FILES_lisp}
+)
+add_dependencies(mavlink_common_generate_messages mavlink_common_generate_messages_lisp)
+
+# target for backward compatibility
+add_custom_target(mavlink_common_genlisp)
+add_dependencies(mavlink_common_genlisp mavlink_common_generate_messages_lisp)
+
+# register target for catkin_package(EXPORTED_TARGETS)
+list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS mavlink_common_generate_messages_lisp)
+
+### Section generating for lang: genpy
+### Generating Messages
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MISSION_RESULT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VISION_POSITION_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GLOBAL_VISION_POSITION_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/COMMAND_LONG.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_REQUEST_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_SEVERITY.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/CHANGE_OPERATOR_CONTROL_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_PARAM_TYPE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_REQUEST_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_CLEAR_ALL.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/BATTERY_STATUS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_COUNT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_GOTO.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_ROLL_PITCH_YAW_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VFR_HUD.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MODE_FLAG_DECODE_POSITION.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SETPOINT_6DOF.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_GLOBAL_POSITION_SETPOINT_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/FILE_TRANSFER_DIR_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RC_CHANNELS_OVERRIDE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ROLL_PITCH_YAW_THRUST_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/STATE_CORRECTION.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MEMORY_VECT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/NAV_CONTROLLER_OUTPUT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MANUAL_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAVLINK_DATA_STREAM_TYPE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_MODE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PING.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_REQUEST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_QUAD_SWARM_ROLL_PITCH_YAW_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ATTITUDE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/NAMED_VALUE_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_ROI.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SCALED_IMU.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_CURRENT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_TYPE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/DATA_STREAM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RAW_PRESSURE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GPS_GLOBAL_ORIGIN.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/STATUSTEXT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/OPTICAL_FLOW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_SET.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_VALUE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ROLL_PITCH_YAW_RATES_THRUST_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/CHANGE_OPERATOR_CONTROL.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MODE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_MODE_FLAG.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_RESULT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_QUAD_MOTORS_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ATTITUDE_QUATERNION.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_STATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/LOCAL_POSITION_NED.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SETPOINT_8DOF.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/LOCAL_POSITION_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_CMD_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIL_RC_INPUTS_RAW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_COMPONENT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SCALED_PRESSURE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RC_CHANNELS_RAW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/COMMAND_ACK.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SYSTEM_TIME.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VISION_SPEED_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/FILE_TRANSFER_START.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/DEBUG_VECT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GLOBAL_POSITION_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIL_CONTROLS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SYS_STATUS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIGHRES_IMU.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_SET_CURRENT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_ITEM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HEARTBEAT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/NAMED_VALUE_FLOAT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/PARAM_REQUEST_READ.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SAFETY_ALLOWED_AREA.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_QUAD_SWARM_LED_ROLL_PITCH_YAW_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_DATA_STREAM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RAW_IMU.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_ITEM_REACHED.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/AUTH_KEY.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/HIL_STATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/LOCAL_POSITION_NED_SYSTEM_GLOBAL_OFFSET.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_REQUEST_PARTIAL_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SAFETY_SET_ALLOWED_AREA.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MISSION_WRITE_PARTIAL_LIST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_LOCAL_POSITION_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GLOBAL_POSITION_SETPOINT_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_ROLL_PITCH_YAW_SPEED_THRUST.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GPS_STATUS.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_CMD.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/ROLL_PITCH_YAW_SPEED_THRUST_SETPOINT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/REQUEST_DATA_STREAM.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/GPS_RAW_INT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SERVO_OUTPUT_RAW.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/SET_GPS_GLOBAL_ORIGIN.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/FILE_TRANSFER_RES.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/RC_CHANNELS_SCALED.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/MANUAL_CONTROL.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/VICON_POSITION_ESTIMATE.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_FRAME.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/DEBUG.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+_generate_msg_py(mavlink_common
+  "/root/ehang_ws/src/mavlink/mavlink_common/msg/E_MAV_AUTOPILOT.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+)
+
+### Generating Services
+
+### Generating Module File
+_generate_module_py(mavlink_common
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+  "${ALL_GEN_OUTPUT_FILES_py}"
+)
+
+add_custom_target(mavlink_common_generate_messages_py
+  DEPENDS ${ALL_GEN_OUTPUT_FILES_py}
+)
+add_dependencies(mavlink_common_generate_messages mavlink_common_generate_messages_py)
+
+# target for backward compatibility
+add_custom_target(mavlink_common_genpy)
+add_dependencies(mavlink_common_genpy mavlink_common_generate_messages_py)
+
+# register target for catkin_package(EXPORTED_TARGETS)
+list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS mavlink_common_generate_messages_py)
+
+
+
+if(gencpp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common)
+  # install generated code
+  install(
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mavlink_common
+    DESTINATION ${gencpp_INSTALL_DIR}
+  )
+endif()
+add_dependencies(mavlink_common_generate_messages_cpp std_msgs_generate_messages_cpp)
+
+if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common)
+  # install generated code
+  install(
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mavlink_common
+    DESTINATION ${genlisp_INSTALL_DIR}
+  )
+endif()
+add_dependencies(mavlink_common_generate_messages_lisp std_msgs_generate_messages_lisp)
+
+if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common)
+  install(CODE "execute_process(COMMAND \"/usr/bin/python\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common\")")
+  # install generated code
+  install(
+    DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mavlink_common
+    DESTINATION ${genpy_INSTALL_DIR}
+  )
+endif()
+add_dependencies(mavlink_common_generate_messages_py std_msgs_generate_messages_py)

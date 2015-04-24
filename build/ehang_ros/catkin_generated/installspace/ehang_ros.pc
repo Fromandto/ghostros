@@ -1,0 +1,8 @@
+prefix=/root/ehang_ws/install
+
+Name: ehang_ros
+Description: Description of ehang_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L/root/ehang_ws/install/lib 
+Requires: 

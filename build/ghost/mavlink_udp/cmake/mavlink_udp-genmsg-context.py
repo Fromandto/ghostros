@@ -1,0 +1,10 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/root/ehang_ws/src/ghost/mavlink_udp/msg/MAV_RAW_DATA.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/SENSOR_OFFSETS.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/SET_MAG_OFFSETS.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/MEMINFO.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/AP_ADC.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/DIGICAM_CONFIGURE.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/DIGICAM_CONTROL.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/MOUNT_CONFIGURE.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/MOUNT_CONTROL.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/MOUNT_STATUS.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/FENCE_POINT.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/FENCE_FETCH_POINT.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/FENCE_STATUS.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/AHRS.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/SIMSTATE.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/HWSTATUS.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/RADIO.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/LIMITS_STATUS.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/WIND.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/DATA16.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/DATA32.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/DATA64.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/DATA96.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/E_MAV_MOUNT_MODE.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/E_MAV_CMD.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/E_FENCE_ACTION.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/E_FENCE_BREACH.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/E_LIMITS_STATE.msg;/root/ehang_ws/src/ghost/mavlink_udp/msg/E_LIMIT_MODULE.msg"
+services_str = ""
+pkg_name = "mavlink_udp"
+dependencies_str = "std_msgs;mavlink_common"
+langs = "gencpp;genlisp;genpy"
+dep_include_paths_str = "mavlink_udp;/root/ehang_ws/src/ghost/mavlink_udp/msg;std_msgs;/opt/ros/hydro/share/std_msgs/cmake/../msg;mavlink_common;/root/ehang_ws/src/ghost/mavlink_common/msg"
+PYTHON_EXECUTABLE = "/usr/bin/python"
+package_has_static_sources = '' == 'TRUE'

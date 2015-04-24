@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "mavlink_udpdevice")
+set(mavlink_udpdevice_MAINTAINER "lijian <jian-li11@mails.tsinghua.edu.cn>")
+set(mavlink_udpdevice_DEPRECATED "")
+set(mavlink_udpdevice_VERSION "0.0.0")
+set(mavlink_udpdevice_BUILD_DEPENDS "mavlink_ardupilotmega" "roscpp" "rospy")
+set(mavlink_udpdevice_RUN_DEPENDS "mavlink_ardupilotmega" "roscpp" "rospy")
+set(mavlink_udpdevice_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,123 @@
+; Auto-generated. Do not edit!
+
+
+(cl:in-package mavlink_common-msg)
+
+
+;//! \htmlinclude E_MAV_CMD.msg.html
+
+(cl:defclass <E_MAV_CMD> (roslisp-msg-protocol:ros-message)
+  ()
+)
+
+(cl:defclass E_MAV_CMD (<E_MAV_CMD>)
+  ())
+
+(cl:defmethod cl:initialize-instance :after ((m <E_MAV_CMD>) cl:&rest args)
+  (cl:declare (cl:ignorable args))
+  (cl:unless (cl:typep m 'E_MAV_CMD)
+    (roslisp-msg-protocol:msg-deprecation-warning "using old message class name mavlink_common-msg:<E_MAV_CMD> is deprecated: use mavlink_common-msg:E_MAV_CMD instead.")))
+(cl:defmethod roslisp-msg-protocol:symbol-codes ((msg-type (cl:eql '<E_MAV_CMD>)))
+    "Constants for message type '<E_MAV_CMD>"
+  '((:E_MAV_CMD_NAV_WAYPOINT . 16)
+    (:E_MAV_CMD_NAV_LOITER_UNLIM . 17)
+    (:E_MAV_CMD_NAV_LOITER_TURNS . 18)
+    (:E_MAV_CMD_NAV_LOITER_TIME . 19)
+    (:E_MAV_CMD_NAV_RETURN_TO_LAUNCH . 20)
+    (:E_MAV_CMD_NAV_LAND . 21)
+    (:E_MAV_CMD_NAV_TAKEOFF . 22)
+    (:E_MAV_CMD_NAV_ROI . 80)
+    (:E_MAV_CMD_NAV_PATHPLANNING . 81)
+    (:E_MAV_CMD_NAV_LAST . 95)
+    (:E_MAV_CMD_CONDITION_DELAY . 112)
+    (:E_MAV_CMD_CONDITION_CHANGE_ALT . 113)
+    (:E_MAV_CMD_CONDITION_DISTANCE . 114)
+    (:E_MAV_CMD_CONDITION_YAW . 115)
+    (:E_MAV_CMD_CONDITION_LAST . 159)
+    (:E_MAV_CMD_DO_SET_MODE . 176)
+    (:E_MAV_CMD_DO_JUMP . 177)
+    (:E_MAV_CMD_DO_CHANGE_SPEED . 178)
+    (:E_MAV_CMD_DO_SET_HOME . 179)
+    (:E_MAV_CMD_DO_SET_PARAMETER . 180)
+    (:E_MAV_CMD_DO_SET_RELAY . 181)
+    (:E_MAV_CMD_DO_REPEAT_RELAY . 182)
+    (:E_MAV_CMD_DO_SET_SERVO . 183)
+    (:E_MAV_CMD_DO_REPEAT_SERVO . 184)
+    (:E_MAV_CMD_DO_CONTROL_VIDEO . 200)
+    (:E_MAV_CMD_DO_LAST . 240)
+    (:E_MAV_CMD_PREFLIGHT_CALIBRATION . 241)
+    (:E_MAV_CMD_PREFLIGHT_SET_SENSOR_OFFSETS . 242)
+    (:E_MAV_CMD_PREFLIGHT_STORAGE . 245)
+    (:E_MAV_CMD_PREFLIGHT_REBOOT_SHUTDOWN . 246)
+    (:E_MAV_CMD_OVERRIDE_GOTO . 252)
+    (:E_MAV_CMD_MISSION_START . 300)
+    (:E_MAV_CMD_COMPONENT_ARM_DISARM . 400))
+)
+(cl:defmethod roslisp-msg-protocol:symbol-codes ((msg-type (cl:eql 'E_MAV_CMD)))
+    "Constants for message type 'E_MAV_CMD"
+  '((:E_MAV_CMD_NAV_WAYPOINT . 16)
+    (:E_MAV_CMD_NAV_LOITER_UNLIM . 17)
+    (:E_MAV_CMD_NAV_LOITER_TURNS . 18)
+    (:E_MAV_CMD_NAV_LOITER_TIME . 19)
+    (:E_MAV_CMD_NAV_RETURN_TO_LAUNCH . 20)
+    (:E_MAV_CMD_NAV_LAND . 21)
+    (:E_MAV_CMD_NAV_TAKEOFF . 22)
+    (:E_MAV_CMD_NAV_ROI . 80)
+    (:E_MAV_CMD_NAV_PATHPLANNING . 81)
+    (:E_MAV_CMD_NAV_LAST . 95)
+    (:E_MAV_CMD_CONDITION_DELAY . 112)
+    (:E_MAV_CMD_CONDITION_CHANGE_ALT . 113)
+    (:E_MAV_CMD_CONDITION_DISTANCE . 114)
+    (:E_MAV_CMD_CONDITION_YAW . 115)
+    (:E_MAV_CMD_CONDITION_LAST . 159)
+    (:E_MAV_CMD_DO_SET_MODE . 176)
+    (:E_MAV_CMD_DO_JUMP . 177)
+    (:E_MAV_CMD_DO_CHANGE_SPEED . 178)
+    (:E_MAV_CMD_DO_SET_HOME . 179)
+    (:E_MAV_CMD_DO_SET_PARAMETER . 180)
+    (:E_MAV_CMD_DO_SET_RELAY . 181)
+    (:E_MAV_CMD_DO_REPEAT_RELAY . 182)
+    (:E_MAV_CMD_DO_SET_SERVO . 183)
+    (:E_MAV_CMD_DO_REPEAT_SERVO . 184)
+    (:E_MAV_CMD_DO_CONTROL_VIDEO . 200)
+    (:E_MAV_CMD_DO_LAST . 240)
+    (:E_MAV_CMD_PREFLIGHT_CALIBRATION . 241)
+    (:E_MAV_CMD_PREFLIGHT_SET_SENSOR_OFFSETS . 242)
+    (:E_MAV_CMD_PREFLIGHT_STORAGE . 245)
+    (:E_MAV_CMD_PREFLIGHT_REBOOT_SHUTDOWN . 246)
+    (:E_MAV_CMD_OVERRIDE_GOTO . 252)
+    (:E_MAV_CMD_MISSION_START . 300)
+    (:E_MAV_CMD_COMPONENT_ARM_DISARM . 400))
+)
+(cl:defmethod roslisp-msg-protocol:serialize ((msg <E_MAV_CMD>) ostream)
+  "Serializes a message object of type '<E_MAV_CMD>"
+)
+(cl:defmethod roslisp-msg-protocol:deserialize ((msg <E_MAV_CMD>) istream)
+  "Deserializes a message object of type '<E_MAV_CMD>"
+  msg
+)
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<E_MAV_CMD>)))
+  "Returns string type for a message object of type '<E_MAV_CMD>"
+  "mavlink_common/E_MAV_CMD")
+(cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql 'E_MAV_CMD)))
+  "Returns string type for a message object of type 'E_MAV_CMD"
+  "mavlink_common/E_MAV_CMD")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<E_MAV_CMD>)))
+  "Returns md5sum for a message object of type '<E_MAV_CMD>"
+  "a689c833091c81e36d6fa77e33b739f4")
+(cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'E_MAV_CMD)))
+  "Returns md5sum for a message object of type 'E_MAV_CMD"
+  "a689c833091c81e36d6fa77e33b739f4")
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<E_MAV_CMD>)))
+  "Returns full string definition for message of type '<E_MAV_CMD>"
+  (cl:format cl:nil "# Automatically Generated in <function get_timestamp at 0x2710500>~%# ENUM: E_MAV_CMD~%# Description:Commands to be executed by the MAV. They can be executed on user request, or as part of a mission script. If the action is used in a mission, the parameter mapping to the waypoint/mission message is as follows: Param 1, Param 2, Param 3, Param 4, X: Param 5, Y:Param 6, Z:Param 7. This command list is similar what ARINC 424 is for commercial aircraft: A data format how to interpret waypoint/mission data.~%# Navigate to MISSION.~%uint8 E_MAV_CMD_NAV_WAYPOINT = 16~%# Loiter around this MISSION an unlimited amount of time~%uint8 E_MAV_CMD_NAV_LOITER_UNLIM = 17~%# Loiter around this MISSION for X turns~%uint8 E_MAV_CMD_NAV_LOITER_TURNS = 18~%# Loiter around this MISSION for X seconds~%uint8 E_MAV_CMD_NAV_LOITER_TIME = 19~%# Return to launch location~%uint8 E_MAV_CMD_NAV_RETURN_TO_LAUNCH = 20~%# Land at location~%uint8 E_MAV_CMD_NAV_LAND = 21~%# Takeoff from ground / hand~%uint8 E_MAV_CMD_NAV_TAKEOFF = 22~%# Sets the region of interest (ROI) for a sensor set or the vehicle itself. This can then be used by the vehicles control system to control the vehicle attitude and the attitude of various sensors such as cameras.~%uint8 E_MAV_CMD_NAV_ROI = 80~%# Control autonomous path planning on the MAV.~%uint8 E_MAV_CMD_NAV_PATHPLANNING = 81~%# NOP - This command is only used to mark the upper limit of the NAV/ACTION commands in the enumeration~%uint8 E_MAV_CMD_NAV_LAST = 95~%# Delay mission state machine.~%uint8 E_MAV_CMD_CONDITION_DELAY = 112~%# Ascend/descend at rate.  Delay mission state machine until desired altitude reached.~%uint8 E_MAV_CMD_CONDITION_CHANGE_ALT = 113~%# Delay mission state machine until within desired distance of next NAV point.~%uint8 E_MAV_CMD_CONDITION_DISTANCE = 114~%# Reach a certain target angle.~%uint8 E_MAV_CMD_CONDITION_YAW = 115~%# NOP - This command is only used to mark the upper limit of the CONDITION commands in the enumeration~%uint8 E_MAV_CMD_CONDITION_LAST = 159~%# Set system mode.~%uint8 E_MAV_CMD_DO_SET_MODE = 176~%# Jump to the desired command in the mission list.  Repeat this action only the specified number of times~%uint8 E_MAV_CMD_DO_JUMP = 177~%# Change speed and/or throttle set points.~%uint8 E_MAV_CMD_DO_CHANGE_SPEED = 178~%# Changes the home location either to the current location or a specified location.~%uint8 E_MAV_CMD_DO_SET_HOME = 179~%# Set a system parameter.  Caution!  Use of this command requires knowledge of the numeric enumeration value of the parameter.~%uint8 E_MAV_CMD_DO_SET_PARAMETER = 180~%# Set a relay to a condition.~%uint8 E_MAV_CMD_DO_SET_RELAY = 181~%# Cycle a relay on and off for a desired number of cyles with a desired period.~%uint8 E_MAV_CMD_DO_REPEAT_RELAY = 182~%# Set a servo to a desired PWM value.~%uint8 E_MAV_CMD_DO_SET_SERVO = 183~%# Cycle a between its nominal setting and a desired PWM for a desired number of cycles with a desired period.~%uint8 E_MAV_CMD_DO_REPEAT_SERVO = 184~%# Control onboard camera system.~%uint8 E_MAV_CMD_DO_CONTROL_VIDEO = 200~%# NOP - This command is only used to mark the upper limit of the DO commands in the enumeration~%uint8 E_MAV_CMD_DO_LAST = 240~%# Trigger calibration. This command will be only accepted if in pre-flight mode.~%uint8 E_MAV_CMD_PREFLIGHT_CALIBRATION = 241~%# Set sensor offsets. This command will be only accepted if in pre-flight mode.~%uint8 E_MAV_CMD_PREFLIGHT_SET_SENSOR_OFFSETS = 242~%# Request storage of different parameter values and logs. This command will be only accepted if in pre-flight mode.~%uint8 E_MAV_CMD_PREFLIGHT_STORAGE = 245~%# Request the reboot or shutdown of system components.~%uint8 E_MAV_CMD_PREFLIGHT_REBOOT_SHUTDOWN = 246~%# Hold / continue the current action~%uint8 E_MAV_CMD_OVERRIDE_GOTO = 252~%# start running a mission~%uint16 E_MAV_CMD_MISSION_START = 300~%# Arms / Disarms a component~%uint16 E_MAV_CMD_COMPONENT_ARM_DISARM = 400~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'E_MAV_CMD)))
+  "Returns full string definition for message of type 'E_MAV_CMD"
+  (cl:format cl:nil "# Automatically Generated in <function get_timestamp at 0x2710500>~%# ENUM: E_MAV_CMD~%# Description:Commands to be executed by the MAV. They can be executed on user request, or as part of a mission script. If the action is used in a mission, the parameter mapping to the waypoint/mission message is as follows: Param 1, Param 2, Param 3, Param 4, X: Param 5, Y:Param 6, Z:Param 7. This command list is similar what ARINC 424 is for commercial aircraft: A data format how to interpret waypoint/mission data.~%# Navigate to MISSION.~%uint8 E_MAV_CMD_NAV_WAYPOINT = 16~%# Loiter around this MISSION an unlimited amount of time~%uint8 E_MAV_CMD_NAV_LOITER_UNLIM = 17~%# Loiter around this MISSION for X turns~%uint8 E_MAV_CMD_NAV_LOITER_TURNS = 18~%# Loiter around this MISSION for X seconds~%uint8 E_MAV_CMD_NAV_LOITER_TIME = 19~%# Return to launch location~%uint8 E_MAV_CMD_NAV_RETURN_TO_LAUNCH = 20~%# Land at location~%uint8 E_MAV_CMD_NAV_LAND = 21~%# Takeoff from ground / hand~%uint8 E_MAV_CMD_NAV_TAKEOFF = 22~%# Sets the region of interest (ROI) for a sensor set or the vehicle itself. This can then be used by the vehicles control system to control the vehicle attitude and the attitude of various sensors such as cameras.~%uint8 E_MAV_CMD_NAV_ROI = 80~%# Control autonomous path planning on the MAV.~%uint8 E_MAV_CMD_NAV_PATHPLANNING = 81~%# NOP - This command is only used to mark the upper limit of the NAV/ACTION commands in the enumeration~%uint8 E_MAV_CMD_NAV_LAST = 95~%# Delay mission state machine.~%uint8 E_MAV_CMD_CONDITION_DELAY = 112~%# Ascend/descend at rate.  Delay mission state machine until desired altitude reached.~%uint8 E_MAV_CMD_CONDITION_CHANGE_ALT = 113~%# Delay mission state machine until within desired distance of next NAV point.~%uint8 E_MAV_CMD_CONDITION_DISTANCE = 114~%# Reach a certain target angle.~%uint8 E_MAV_CMD_CONDITION_YAW = 115~%# NOP - This command is only used to mark the upper limit of the CONDITION commands in the enumeration~%uint8 E_MAV_CMD_CONDITION_LAST = 159~%# Set system mode.~%uint8 E_MAV_CMD_DO_SET_MODE = 176~%# Jump to the desired command in the mission list.  Repeat this action only the specified number of times~%uint8 E_MAV_CMD_DO_JUMP = 177~%# Change speed and/or throttle set points.~%uint8 E_MAV_CMD_DO_CHANGE_SPEED = 178~%# Changes the home location either to the current location or a specified location.~%uint8 E_MAV_CMD_DO_SET_HOME = 179~%# Set a system parameter.  Caution!  Use of this command requires knowledge of the numeric enumeration value of the parameter.~%uint8 E_MAV_CMD_DO_SET_PARAMETER = 180~%# Set a relay to a condition.~%uint8 E_MAV_CMD_DO_SET_RELAY = 181~%# Cycle a relay on and off for a desired number of cyles with a desired period.~%uint8 E_MAV_CMD_DO_REPEAT_RELAY = 182~%# Set a servo to a desired PWM value.~%uint8 E_MAV_CMD_DO_SET_SERVO = 183~%# Cycle a between its nominal setting and a desired PWM for a desired number of cycles with a desired period.~%uint8 E_MAV_CMD_DO_REPEAT_SERVO = 184~%# Control onboard camera system.~%uint8 E_MAV_CMD_DO_CONTROL_VIDEO = 200~%# NOP - This command is only used to mark the upper limit of the DO commands in the enumeration~%uint8 E_MAV_CMD_DO_LAST = 240~%# Trigger calibration. This command will be only accepted if in pre-flight mode.~%uint8 E_MAV_CMD_PREFLIGHT_CALIBRATION = 241~%# Set sensor offsets. This command will be only accepted if in pre-flight mode.~%uint8 E_MAV_CMD_PREFLIGHT_SET_SENSOR_OFFSETS = 242~%# Request storage of different parameter values and logs. This command will be only accepted if in pre-flight mode.~%uint8 E_MAV_CMD_PREFLIGHT_STORAGE = 245~%# Request the reboot or shutdown of system components.~%uint8 E_MAV_CMD_PREFLIGHT_REBOOT_SHUTDOWN = 246~%# Hold / continue the current action~%uint8 E_MAV_CMD_OVERRIDE_GOTO = 252~%# start running a mission~%uint16 E_MAV_CMD_MISSION_START = 300~%# Arms / Disarms a component~%uint16 E_MAV_CMD_COMPONENT_ARM_DISARM = 400~%~%~%"))
+(cl:defmethod roslisp-msg-protocol:serialization-length ((msg <E_MAV_CMD>))
+  (cl:+ 0
+))
+(cl:defmethod roslisp-msg-protocol:ros-message-to-list ((msg <E_MAV_CMD>))
+  "Converts a ROS message object to a list"
+  (cl:list 'E_MAV_CMD
+))
